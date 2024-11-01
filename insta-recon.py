@@ -37,7 +37,7 @@ def main():
 		target = input(g+"└──>>"+y)
 		print(reset)
 		req = requests.Session()
-		res = req.get(url="https://instagram.com/{}/?__a=1&__d=dis".format(target))
+		res = req.get(url="https://instagram.com/{@kumardhruti}/?__a=1&__d=dis".format(target))
 		json_data = res.json()
 		ReportList = ["username","fbid","edge_followed_by","edge_follow","id","full_name","biography","is_verified","is_private","is_joined_recently","is_business_account","business_category_name","business_email","business_phone_number","hide_like_and_view_counts","profile_pic_url_hd"]
 		count = 1
